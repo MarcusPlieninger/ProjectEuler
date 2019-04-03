@@ -1,5 +1,5 @@
 import unittest
-from problem001_multiplesof3and5 import solution
+from p001_multiplesof3and5 import solution
 
 class example_tests(unittest.TestCase):
     def test_example1(self):
