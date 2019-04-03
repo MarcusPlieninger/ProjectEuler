@@ -16,11 +16,11 @@ def solution(N):
     return result
 
 # The above code is straightforward. However, it can be simplified using
-# a generator expresssion:
+# agenerator expresssion:
 
 def solutionGen(N):
     return sum(i for i in range(0, N) if i % 3 == 0 or i % 5 == 0)
 
 # More on generators:
 # https://wiki.python.org/moin/Generators
-
+# https://www.python.org/dev/peps/pep-0289/
