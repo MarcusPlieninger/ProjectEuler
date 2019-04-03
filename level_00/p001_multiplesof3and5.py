@@ -14,3 +14,13 @@ def solution(N):
         if i % 3 == 0 or i % 5 == 0:
             result += i
     return result
+
+# The above code is straightforward. However, it can be simplified using
+# generator expresssion:
+
+def solutionGen(N):
+    return sum(i for i in range(0, N) if i % 3 == 0 or i % 5 == 0)
+
+# More on generators:
+# https://wiki.python.org/moin/Generators
+
