@@ -16,7 +16,7 @@ def solution(N):
     return result
 
 # The above code is straightforward. However, it can be simplified using
-# agenerator expresssion:
+# a generator expresssion:
 
 def solutionGen(N):
     return sum(i for i in range(0, N) if i % 3 == 0 or i % 5 == 0)
